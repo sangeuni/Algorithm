@@ -3,12 +3,6 @@ import java.util.*;
 
 public class _1920 {
 
-    public static void main(String[] args) throws IOException {
-        _1920 main = new _1920();
-        main.go();
-
-    }
-
     private void go() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

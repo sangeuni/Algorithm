@@ -4,11 +4,6 @@ import java.util.Arrays;
 public class _2750 {
     // 수 정렬하기
 
-    public static void main(String[] args) throws IOException {
-        _2750 main = new _2750();
-        main.go();
-    }
-
     private void go() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
