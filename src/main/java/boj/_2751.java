@@ -1,6 +1,9 @@
+package boj;
+
 import java.io.*;
 // Merge Sort
 public class _2751 {
+
     static int[] tmp; // merge() 안에서 생성했을 때 시간초과 나벌임;;
 
     private void go() throws IOException {
