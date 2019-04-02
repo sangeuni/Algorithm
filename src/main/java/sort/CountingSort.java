@@ -3,9 +3,6 @@ package sort;
 import java.io.*;
 
 public class CountingSort {
-    public static void main(String[] args) throws IOException {
-        new CountingSort().go();
-    }
 
     private void go() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
