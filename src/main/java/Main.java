@@ -6,6 +6,7 @@ public class Main {
         Main main = new Main();
         main.go();
     }
+
     private void go() throws IOException {
     }
 }
