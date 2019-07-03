@@ -8,6 +8,5 @@ public class Main {
         main.go();
     }
     private void go() throws IOException {
-
     }
 }
