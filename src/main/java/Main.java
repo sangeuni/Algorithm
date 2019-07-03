@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 public class Main {
 
@@ -7,6 +6,7 @@ public class Main {
         Main main = new Main();
         main.go();
     }
+
     private void go() throws IOException {
     }
 }
