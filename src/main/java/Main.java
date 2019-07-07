@@ -1,12 +1,8 @@
-import java.io.*;
+import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
-        Main main = new Main();
-        main.go();
-    }
+    public static void main(String[] args) {
 
-    private void go() throws IOException {
     }
 }
