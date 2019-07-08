@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Level1_5 {
+    /*
+    * Level1 - 같은 숫자은 싫어
+    *
+    * */
     public int[] solution(int[] arr) {
         int[] answer;
         List<Integer> answerList = new ArrayList<>();
