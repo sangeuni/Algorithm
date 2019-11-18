@@ -47,7 +47,7 @@ public class _2667 {
 		// BFS
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
-				if (ad[i][j] != 0 && !visited[i][j]) {
+				if (ad[i][j] == 1 && !visited[i][j]) {
 					BFS(i, j);
 				}
 			}

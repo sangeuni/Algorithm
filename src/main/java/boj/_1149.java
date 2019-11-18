@@ -29,5 +29,6 @@ public class _1149 {
 		}
 
 		System.out.println(Math.min(Math.min(r, g), b));
+		sc.close();
 	}
 }
