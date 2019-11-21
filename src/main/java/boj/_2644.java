@@ -1,8 +1,11 @@
+package boj;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class _2644 {
+	/* 촌수계산 */
 	int[][] map;
 	int[] visited;
 	int n, m, p1, p2;
@@ -27,7 +30,7 @@ public class Main {
 		}
 
 		dfs(p1);
-		//bfs(p1);
+		// bfs(p1);
 		System.out.println(d[p2] == 0 ? -1 : d[p2]);
 	}
 
@@ -50,17 +53,12 @@ public class Main {
 
 	public void dfs(int p) {
 		visited[p] = 1;
-		
-		for(int i = 1; i<=n; i++) {
-			if(map[p][i] == 1&& visited[i]==0) {
+
+		for (int i = 1; i <= n; i++) {
+			if (map[p][i] == 1 && visited[i] == 0) {
 				d[i] = d[p] + 1;
 				dfs(i);
 			}
 		}
-	}
-
-	public static void main(String args[]) {
-		Main main = new Main();
-		main.go();
 	}
 }
