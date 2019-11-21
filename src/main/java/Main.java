@@ -1,60 +1,69 @@
+import java.util.Arrays;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
 	int[][] map;
 	int[] visited;
-	int n, m, p1, p2;
-	int count;
-	int[] d;
+	int[][] d;
+	int n, m;
 
 	public void go() {
 		Scanner sc = new Scanner(System.in);
 		n = sc.nextInt();
-		p1 = sc.nextInt();
-		p2 = sc.nextInt();
 		m = sc.nextInt();
-		d = new int[n + 1];
 		map = new int[n + 1][n + 1];
 		visited = new int[n + 1];
+		d = new int[n + 1][n + 1];
 		int a, b;
-		for (int i = 0; i < m; i++) {
+		for (int i = 1; i <= m; i++) {
 			a = sc.nextInt();
 			b = sc.nextInt();
 
 			map[a][b] = map[b][a] = 1;
 		}
 
-		dfs(p1);
-		//bfs(p1);
-		System.out.println(d[p2] == 0 ? -1 : d[p2]);
+		for (int i = 1; i <= n; i++) {
+			bfs(i);
+			Arrays.fill(visited, 0);
+		}
+		
+		List<Integer> list = new LinkedList<>();
+		int sum = 0;
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j++) {
+				sum += d[i][j];
+			}
+			list.add(sum);
+			sum = 0;
+		}
+		int min = 0;
+		int answer;
+		for(int i = 1; i<list.size(); i++) {
+			if(list.get(min) > list.get(i)) {
+				min = i;
+			}else if(list.get(min) == list.get(i)) {
+				continue;
+			}
+		}
+		
+		System.out.println(min+1);
 	}
 
-	public void bfs(int p) {
+	public void bfs(int x) {
 		Queue<Integer> q = new LinkedList<>();
-		q.offer(p);
-		visited[p] = 1;
-		d[p] = 0;
+		q.offer(x);
+		visited[x] = 1;
 		while (!q.isEmpty()) {
 			int cur = q.poll();
 			for (int i = 1; i <= n; i++) {
 				if (map[cur][i] == 1 && visited[i] == 0) {
-					q.offer(i);
+					q.add(i);
 					visited[i] = 1;
-					d[i] = d[cur] + 1;
+					d[x][i] = d[x][cur] + 1;
 				}
-			}
-		}
-	}
-
-	public void dfs(int p) {
-		visited[p] = 1;
-		
-		for(int i = 1; i<=n; i++) {
-			if(map[p][i] == 1&& visited[i]==0) {
-				d[i] = d[p] + 1;
-				dfs(i);
 			}
 		}
 	}
