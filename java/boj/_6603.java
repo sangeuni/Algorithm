@@ -1,9 +1,12 @@
+package boj;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class _6603 {
+	/* 로또 */
 	List<Integer> numbers;
 	List<Lotto> lottoList;
 	int[] comArr;
@@ -38,7 +41,6 @@ public class Main {
 	public void go() {
 		Scanner sc = new Scanner(System.in);
 
-		
 		while (true) {
 			comArr = new int[6];
 			lottoList = new LinkedList<>();
@@ -48,26 +50,22 @@ public class Main {
 			if (size == 0)
 				break;
 
-			for(int i = 0; i<size; i++) {
+			for (int i = 0; i < size; i++) {
 				numbers.add(sc.nextInt());
 			}
 
 			combination(comArr, numbers.size(), 6, 0, 0);
-			printTest();
+			printLotto();
 		}
 	}
 
-	public void printTest() {
+	public void printLotto() {
 		for (Lotto l : lottoList) {
 			for (int i = 0; i < 6; i++) {
 				System.out.print(l.elem[i] + " ");
 			}
 			System.out.println();
 		}
-	}
-
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.go();
+		System.out.println();
 	}
 }
