@@ -1,12 +1,13 @@
+package boj;
+
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class _2468 {
+	/* 안전영역 */
 	int[][] copy;
 	int[][] map;
 	int[][] visited;
@@ -14,6 +15,7 @@ public class Main {
 	int[] dy = { 0, 0, 1, -1 };
 	int N;
 	List<Integer> list;
+
 	class Dot {
 		int x, y;
 
@@ -42,10 +44,10 @@ public class Main {
 			copy = new int[N][N];
 			init();
 			int count = 0;
-			for(int i = 0; i<N; i++) {
-				for(int j = 0; j<N; j++) {
-					if(visited[i][j] == 0 && copy[i][j] > max) {
-						bfs(new Dot(i,j), max);
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < N; j++) {
+					if (visited[i][j] == 0 && copy[i][j] > max) {
+						bfs(new Dot(i, j), max);
 						count++;
 					}
 				}
@@ -67,19 +69,19 @@ public class Main {
 			for (int i = 0; i < 4; i++) {
 				nx = cur.x + dx[i];
 				ny = cur.y + dy[i];
-				
-				if(nx <0 || ny <0 || nx >=N || ny >=N)
+
+				if (nx < 0 || ny < 0 || nx >= N || ny >= N)
 					continue;
-				
-				if(visited[nx][ny] == 1 ||  copy[nx][ny] <= max)
+
+				if (visited[nx][ny] == 1 || copy[nx][ny] <= max)
 					continue;
-				
-				q.offer(new Dot(nx,ny));
+
+				q.offer(new Dot(nx, ny));
 				visited[nx][ny] = 1;
-				
- 			}
+
+			}
 		}
-		
+
 	}
 
 	public void init() {
@@ -91,19 +93,5 @@ public class Main {
 		for (int i = 0; i < visited.length; i++) {
 			Arrays.fill(visited[i], 0);
 		}
-	}
-	
-	public void print() {
-		/*
-		 * for(int i : list) System.out.print(i + " ");
-		 */
-		Collections.sort(list, Comparator.reverseOrder());
-		if(list.get(0) == 0 ) System.out.println(1);
-		else System.out.println(list.get(0));
-	}
-
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.go();
 	}
 }
