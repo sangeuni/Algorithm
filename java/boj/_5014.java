@@ -1,8 +1,11 @@
+package boj;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class _5014 {
+	/* 스타트링크 */
 	int F, S, G, U, D;
 	int[] elevator;
 
@@ -41,10 +44,5 @@ public class Main {
 		}
 
 		return "use the stairs";
-	}
-
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.go();
 	}
 }
