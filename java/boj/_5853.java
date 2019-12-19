@@ -1,8 +1,11 @@
+package boj;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class _5853 {
+	/* 프린터 큐 */
 	int N, M;
 	Queue<Document> printerQ;
 
@@ -70,10 +73,5 @@ public class Main {
 				return false;
 		}
 		return true;
-	}
-
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.go();
 	}
 }
