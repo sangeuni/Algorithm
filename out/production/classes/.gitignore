@@ -1,9 +1,9 @@
-/Main.class
 /algorithm/
 /boj/
+/Main.class
 /ds/
 /maeil/
 /programmers/
 /sort/
-/Main$Queue.class
-/Main$Document.class
+/Main$MinHeap.class
+/Main$Max.class

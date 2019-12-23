@@ -32,9 +32,9 @@ public class MaxHeap {
 
 		int item = heap.get(1);
 		swap(1, size); // root 노드와 힙의 마지막 노드 swap
-		heap.remove(size--); // 최대값인 노드를 삭제하고 힙 크기 줄이기
+		heap.set(size, 0);
 
-		for (int i = 1; i * 2 <= size;) { // Top-down
+		for (int i = 1; i * 2 < size;) { // Top-down
 			if (heap.get(i) > heap.get(i * 2) && heap.get(i) > heap.get(i * 2 + 1)) { // 현재 노드 값이 자식 노드 보다 크면 break
 				break;
 			} else if (heap.get(i * 2) > heap.get(i * 2 + 1)) { // 자식 노드(왼,오)중 더 큰 값과 swap
@@ -45,6 +45,7 @@ public class MaxHeap {
 				i = i * 2 + 1;
 			}
 		}
+		heap.remove(size--); // 최대값인 노드를 삭제하고 힙 크기 줄이기
 		return item;
 	}
 
