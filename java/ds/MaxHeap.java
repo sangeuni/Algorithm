@@ -7,7 +7,7 @@ public class MaxHeap {
 	private int size;
 	List<Integer> heap;
 
-	public MaxHeap() {
+	private MaxHeap() {
 		heap = new ArrayList<>();
 		heap.add(100000); // 첫 번째 index 사용하지 않기 위해서
 		size = 0;
