@@ -18,10 +18,10 @@ public class _2220 {
 		for (int i = 2; i <= num; i++) {
 			arr[i] = i;
 			int j = i - 1;
-			swap(i, j);
+			swap(i, j);	// 1을 끝에 위치하기 위한 swap
 			while (j != 1) {
-				swap(j, j / 2);
-				j /= 2;
+				swap(j, j / 2);	// arr[j] 에 가장 큰 수가 위치하는 상태이기 때문에 최대힙을 구성하기 위한 swap
+				j /= 2;	// 
 			}
 		}
 		print();

@@ -1,7 +1,10 @@
+package codingtest;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main {
+
+public class MineSweeper {
 	String[] input;
 	char[][] map;
 	int[][] visited;
@@ -67,9 +70,5 @@ public class Main {
 				System.out.print(map[i][j]+" ");
 			System.out.println();
 		}
-	}
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.go();
 	}
 }
