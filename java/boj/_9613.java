@@ -1,6 +1,13 @@
+package boj;
+
 import java.util.Scanner;
 
-public class Main {
+public class _9613 {
+	/* 
+	 * GCD 합
+	 * n이 1일 때에 대한 처리는 할 필요 없었고,
+	 * sum이 int 범위를 초과하기 때문에 long으로 바꿔서 맞았다.
+	 */
 	public void go() {
 		Scanner sc = new Scanner(System.in);
 		int tc = sc.nextInt();
@@ -27,10 +34,5 @@ public class Main {
 		if (b == 0)
 			return a;
 		return gcd(b, a % b);
-	}
-
-	public static void main(String[] args) {
-		Main main = new Main();
-		main.go();
 	}
 }
