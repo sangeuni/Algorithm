@@ -52,11 +52,11 @@ public class _1202 {
 		int j = 0;
 		for (int i = 0; i < K; i++) {
 			while(j < N && gems[j].M <= bags[i]) {
-				q.offer(gems[j].V);	// 가방에 들어갈 수 있는 보석만 enqueue
+				q.offer(gems[j].V);	// 가방에 들어갈 수 있는 보석만 enqueue, 보석 가격만 필요하기 때문에 V값만 넣어준다.
 				j++;
 			}
 			if(!q.isEmpty())
-				answer += q.poll();
+				answer += q.poll();	// 훔칠 수 있는 가장 비싼 보석 poll
 		}
 
 		System.out.println(answer);
