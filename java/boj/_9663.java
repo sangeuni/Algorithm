@@ -1,9 +1,14 @@
+package boj;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Main {
+public class _9663 {
+	/* 
+	 * N-Queen 
+	 */
 	static int n, answer = 0;
 	static boolean[] col = new boolean[15];
 	static boolean[] dig1 = new boolean[30];
@@ -36,10 +41,10 @@ public class Main {
 
 	static void calc(int row) {
 		if (row == n) {
-			answer +=1;
+			answer += 1;
 			return;
 		}
-		
+
 		for (int i = 0; i < n; i++) {
 			if (check(row, i)) {
 				col[i] = true;
@@ -51,7 +56,7 @@ public class Main {
 				dig2[row - i + n] = false;
 			}
 		}
-		
+
 	}
 
 	static int stoi(String s) {
