@@ -1,74 +1,103 @@
 package codingtest;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
+import java.io.IOException;
 
 public class MineSweeper {
-	String[] input;
-	char[][] map;
-	int[][] visited;
-	int[] dx = {1,-1,0,0,-1,-1,1,1};
-	int[] dy = {0,0,1,-1,-1,1,-1,1};
-	
-	class Dot{
-		int x,y;
-		public Dot(int x, int y) {
-			this.x = x;
-			this.y = y;
+	static int R, C, X, Y;
+	static char[][] map;
+	static int[][] nums;
+	static int[] dx = { -1, 1, 0, 0, 1, 1, -1, -1 };
+	static int[] dy = { 0, 0, -1, 1, 1, -1, -1, 1 };
+	static StringBuilder sb = new StringBuilder();
+
+	public static void main(String[] args) throws IOException {
+		 String[] input = { "EEEEE", "EEMEE", "EEEEE", "EEEEE" };
+		// String[] result = solution(input, 2, 0);
+		// String[] result = solution(input, 1, 2);
+//		String[] input = { "EEEEMEEEE", "EEEEEEEEM", "EEEEEEMEE", "EEEEEEEEE", "EEMEEEEEM", "EEEEEEEEE", "MEEEEEMEE",
+//				"EEEMEEEEE", "MEEEEEMEE" };
+		String[] result = solution(input, 0, 0);
+		for (String s : result) {
+			System.out.println(s);
 		}
-	}
-	public void go() {
-		input = new String[]{"EEEEE", "EEMEE", "EEEEE", "EEEEE"};
-		int n = input.length;
-		int m = input[0].length();
-		int x = 0; int y = 2;
-		map = new char[n][m];
-		visited = new int[n][m];
-		for(int i = 0; i<n; i++) {
-			for(int j = 0; j<m; j++) {
-				map[i][j] = input[i].charAt(j);
-			}
-		}
-		
-		BFS(y,x,n,m);
-		print();
-		
 	}
 
-	public void BFS(int x, int y, int n, int m) {
-		Queue<Dot> q = new LinkedList<>();
-		q.offer(new Dot(x,y));
-		visited[x][y] = 1;
-		
-		while(!q.isEmpty()) {
-			Dot cur = q.poll();
-			int nx, ny;
-			for(int i = 0; i<8; i++) {
-				nx = cur.x + dx[i];
-				ny = cur.y + dy[i];
-				
-				if(nx < 0 || ny <0 || nx >= n || ny >= m)
-					continue;
-				
-				if(visited[nx][ny] == 1 ) continue;
-				
-				if(map[nx][ny] == 'M') {
-					map[cur.x][cur.y]++;
-					continue;
+	private static String[] solution(String[] input, int x, int y) {
+		init(input);
+		// 시작점에 지뢰가 있을 경우, 시작점이 속한 Row만 복사해서 바꾸기
+		if (map[x][y] == 'M') {
+			map[x][y] = 'X';
+			for (int i = 0; i < C; i++) {
+
+				sb.append(map[x][i]);
+			}
+			input[x] = sb.toString();
+			return input;
+		}
+		dfs(x, y); // flow.1 - 임의의 한 점 x, y 를 선택합니다.
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				if (map[i][j] == 'M') {
+					sb.append('E');
+				} else {
+					sb.append(map[i][j]);
 				}
-				
-				q.offer(new Dot(nx,ny));
-				visited[nx][ny] = 1;
+			}
+			input[i] = sb.toString();
+			sb = new StringBuilder();
+		}
+		return input;
+	}
+
+	private static void dfs(int x, int y) {
+		int mine = 0;
+		for (int i = 0; i < 8; i++) { // flow.2 - 주변의 8 곳을 살펴봅니다.
+			int nx = x + dx[i];
+			int ny = y + dy[i];
+			if (nx >= 0 && ny >= 0 && nx < R && ny < C) {
+				if (map[nx][ny] == 'M') {
+					mine++;
+				}
 			}
 		}
-		
+		nums[x][y] = mine;
+
+		map[x][y] = (char) (mine + '0');
+		if (mine == 0) { // flow.3a - 지뢰가 없다면? -> 8 방향으로 dfs
+
+			map[x][y] = 'B';
+
+			for (int i = 0; i < 8; i++) {
+				int nx = x + dx[i];
+				int ny = y + dy[i];
+				if (nx >= 0 && ny >= 0 && nx < R && ny < C && nums[nx][ny] == -1) {
+					dfs(nx, ny);
+				}
+			}
+		} else { // flow.3b - 지뢰가 있다면? -> 함수 그냥 종료니까
+		}
 	}
-	public void print() {
-		for(int i = 0; i<map.length; i++) {
-			for(int j = 0; j<map[i].length; j++)
-				System.out.print(map[i][j]+" ");
+
+	private static void init(String[] input) {
+		R = input.length;
+		C = input[0].length();
+		map = new char[R][C];
+		nums = new int[R][C];
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				map[i][j] = input[i].charAt(j);
+				nums[i][j] = -1;
+			}
+		}
+	}
+
+	private static void print() {
+		for (int i = 0; i < R; i++) {
+			for (int j = 0; j < C; j++) {
+				System.out.print(map[i][j] + " ");
+			}
 			System.out.println();
 		}
+		System.out.println();
 	}
 }
