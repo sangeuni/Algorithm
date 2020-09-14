@@ -9,9 +9,7 @@ import java.util.StringTokenizer;
 
 
 public class _17135 {
-	/* 
-	 * 캐슬디펜스 
-	 */
+	/* BOJ - 캐슬 디펜스 */
 	static int n, m, d, answer;
 	static int[][] map, copy, visited;
 	static int[] a;

@@ -6,9 +6,7 @@ import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class _17471 {
-	/* 
-	 * 게리멘더링
-	 */
+	/* BOJ - 게리멘더링 */
 	static int n, min;
 	static int[] a, visited;
 	static int[][] map;

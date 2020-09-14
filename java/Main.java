@@ -1,60 +1,51 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-
 public class Main {
-	static int n, answer = 0;
-	static boolean[] col = new boolean[15];
-	static boolean[] dig1 = new boolean[30];
-	static boolean[] dig2 = new boolean[30];
+	static int resultCount = Integer.MAX_VALUE;
+	static int resultNumber = -1;
 
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine());
-
-		n = stoi(st.nextToken());
-		calc(0);
-		System.out.println(answer);
-
+	public static void main(String[] args) {
+		solution(73425);
+		solution(9);
 	}
 
-	static boolean check(int r, int c) {
-		// col
-		if (col[c])
-			return false;
-
-		// 오른쪽 대각선
-		if (dig1[r + c])
-			return false;
-
-		// 왼쪽 대각선
-		if (dig2[r - c + n])
-			return false;
-		return true;
-	}
-
-	static void calc(int row) {
-		if (row == n) {
-			answer +=1;
+	static void go(String n, int cnt) {
+		if (n.length() == 1) {
+			if (resultCount >= cnt) {
+				resultCount = cnt;
+				resultNumber = Integer.valueOf(n);
+			}
 			return;
 		}
-		
-		for (int i = 0; i < n; i++) {
-			if (check(row, i)) {
-				col[i] = true;
-				dig1[row + i] = true;
-				dig2[row - i + n] = true;
-				calc(row + 1);
-				col[i] = false;
-				dig1[row + i] = false;
-				dig2[row - i + n] = false;
+
+		int len = n.length();
+		for (int i = 1; i <= len - 1; i++) {
+			int j = len - i;
+			int first = splitNumber(n, 1, i);
+			int second = splitNumber(n, i + 1, len);
+
+			if (first != -1 && second != -1) {
+				go(Integer.toString(first + second), cnt + 1);
 			}
 		}
-		
 	}
 
-	static int stoi(String s) {
-		return Integer.parseInt(s);
+	static int splitNumber(String n, int s, int e) {
+		String sub = n.substring(s - 1, e);
+		if (sub.charAt(0) == '0') {
+			return -1;
+		} else {
+			return Integer.valueOf(sub);
+		}
+	}
+
+	static int[] solution(int n) {
+		int[] answer = new int[2];
+
+		go(String.valueOf(n), 0);
+		answer[0] = resultCount;
+		answer[1] = resultNumber;
+		for (int i : answer) {
+			System.out.println(i);
+		}
+		return answer;
 	}
 }
