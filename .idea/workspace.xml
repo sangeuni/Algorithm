@@ -22,120 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="add change">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/boj/_17135.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/boj/_17135.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/boj/_17471.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/boj/_17471.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/boj/_9012.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/boj/_9012.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/codingtest/Boost2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/codingtest/Boost2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/BreadthFirstSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Combination.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Greedy$Task.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Greedy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10026$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10026.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1012$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1012.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1026.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10815.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10828.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10845.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10866.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10867.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11052.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11279$Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11279.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11403.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1149.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1159.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11650$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11650$Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11650.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11651$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11651$Coordinate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11651.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11724.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11727.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1181$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1181.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1260.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1297$Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1297.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1389.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1406.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_14502$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_14502.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_16914.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1920.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1924.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1932.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2178$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2178.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2579.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2583.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2644.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2667$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2667.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2750.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2751.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2798.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2839.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2846.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2920.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2953.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_3052.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7562$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7562.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7576$Dot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7576.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_9095.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_9372.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_9498.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/ListStack$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/ListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/maeil/_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/maeil/_002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_005.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_006.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_007.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008$Word.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_009.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_010.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_002.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_003$Document.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_004.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_005$Truck.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_005.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_006.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_007.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_008.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level3/_001.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/sort/CountingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/codingtest/Boost2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/codingtest/MineSweeper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,6 +171,14 @@
       <workItem from="1566318345985" duration="3048000" />
       <workItem from="1568131713239" duration="4402000" />
     </task>
+    <task id="LOCAL-00001" summary="add change">
+      <created>1600075310656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600075310656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -309,6 +208,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add change" />
+    <option name="LAST_COMMIT_MESSAGE" value="add change" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="477" y="0" width="1092" height="940" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600075027225">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -322,22 +225,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600075106293" />
-    <state width="1860" height="164" key="GridCell.Tab.0.bottom" timestamp="1600075041182">
+    <state width="1860" height="326" key="GridCell.Tab.0.bottom" timestamp="1600077128150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600075041182" />
-    <state width="1860" height="164" key="GridCell.Tab.0.center" timestamp="1600075041182">
+    <state width="1860" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600077128150" />
+    <state width="1860" height="326" key="GridCell.Tab.0.center" timestamp="1600077128148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600075041182" />
-    <state width="1860" height="164" key="GridCell.Tab.0.left" timestamp="1600075041182">
+    <state width="1860" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600077128148" />
+    <state width="1860" height="326" key="GridCell.Tab.0.left" timestamp="1600077128147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600075041182" />
-    <state width="1860" height="164" key="GridCell.Tab.0.right" timestamp="1600075041182">
+    <state width="1860" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600077128147" />
+    <state width="1860" height="326" key="GridCell.Tab.0.right" timestamp="1600077128148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600075041182" />
+    <state width="1860" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600077128148" />
     <state x="426" y="225" key="NewModule_or_Project.wizard" timestamp="1600075118521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,9 +249,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="426" y="154" width="998" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600075121577" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600071408689">
+    <state x="554" y="262" key="Vcs.Push.Dialog.v2" timestamp="1600075343750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600071408689" />
+    <state x="554" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600075343750" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600075336977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600075336977" />
   </component>
 </project>
