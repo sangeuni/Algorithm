@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="java"/>
-	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
-	<classpathentry kind="output" path="out/production/classes"/>
+    	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+    	<classpathentry kind="output" path="out/production/classes"/>
 </classpath>
