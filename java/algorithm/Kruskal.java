@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class KruskalAlgorithm {
+public class Kruskal {
 	static int v, e, answer;
 	static int[] parent;
 	static PriorityQueue<Edge> pq;
