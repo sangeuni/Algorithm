@@ -22,14 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="ignore file">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="boj - 1786">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-alorithm.eml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-alorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-alorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/ClassSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/sort/ClassSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
     </list>
@@ -122,10 +117,23 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="show.unlinked.gradle.project.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.Dijkstra" />
+      <module name="java-alorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-alorithm" />
@@ -133,9 +141,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.PrimAlgorithm" />
+      <module name="java-alorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_9373" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="boj._9373" />
+      <module name="java-alorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="boj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application._9373" />
+        <item itemvalue="Application.Dijkstra" />
+        <item itemvalue="Application.PrimAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +247,77 @@
       <option name="project" value="LOCAL" />
       <updated>1600077551113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="boj - 17136">
+      <created>1600328742769</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600328742769</updated>
+    </task>
+    <task id="LOCAL-00005" summary="boj - 2636">
+      <created>1603094195620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603094195620</updated>
+    </task>
+    <task id="LOCAL-00006" summary="boj - 4485">
+      <created>1603106953343</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603106953344</updated>
+    </task>
+    <task id="LOCAL-00007" summary="boj - 1647">
+      <created>1603108378429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603108378429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="boj - 6497">
+      <created>1603171237711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603171237711</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit 9373">
+      <created>1603263358925</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603263358926</updated>
+    </task>
+    <task id="LOCAL-00010" summary="boj - 2665">
+      <created>1603346648723</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603346648723</updated>
+    </task>
+    <task id="LOCAL-00011" summary="boj - 5525">
+      <created>1603355732683</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603355732683</updated>
+    </task>
+    <task id="LOCAL-00012" summary="edit boj - 5525">
+      <created>1603429724685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603429724685</updated>
+    </task>
+    <task id="LOCAL-00013" summary="boj - 1786">
+      <created>1603433901335</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603433901335</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -243,77 +350,160 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add change" />
     <MESSAGE value="ignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore file" />
+    <MESSAGE value="boj - 17136" />
+    <MESSAGE value="boj - 2636" />
+    <MESSAGE value="boj - 4485" />
+    <MESSAGE value="boj - 1647" />
+    <MESSAGE value="boj - 6497" />
+    <MESSAGE value="boj - 9373" />
+    <MESSAGE value="edit 9373" />
+    <MESSAGE value="boj - 2665" />
+    <MESSAGE value="boj - 5525" />
+    <MESSAGE value="edit boj - 5525" />
+    <MESSAGE value="boj - 1786" />
+    <option name="LAST_COMMIT_MESSAGE" value="boj - 1786" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="727" y="182" key="#Auto_Import" timestamp="1603184105779">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="182" key="#Auto_Import/0.0.1920.1040@0.0.1920.1040" timestamp="1603184105779" />
+    <state x="754" y="306" key="#Web_Browsers" timestamp="1601795319794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="306" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1601795319794" />
     <state x="477" y="0" width="1092" height="990" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600148533262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="0" width="1092" height="990" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600148533262" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1603183355751">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603183355751" />
     <state x="654" y="263" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1600148006727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="654" y="263" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600148006727" />
+    <state x="671" y="254" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1603183854931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="671" y="254" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603183854931" />
+    <state x="542" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603095154172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="542" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603095154172" />
     <state x="740" y="235" key="FileChooserDialogImpl" timestamp="1600148637139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600148637139" />
-    <state width="1877" height="240" key="GridCell.Tab.0.bottom" timestamp="1600327741356">
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.bottom" timestamp="1600685976146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600327741356" />
-    <state width="1877" height="240" key="GridCell.Tab.0.center" timestamp="1600327741355">
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600685976146" />
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.center" timestamp="1600685976146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600327741355" />
-    <state width="1877" height="240" key="GridCell.Tab.0.left" timestamp="1600327741355">
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600685976146" />
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.left" timestamp="1600685976146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600327741355" />
-    <state width="1877" height="240" key="GridCell.Tab.0.right" timestamp="1600327741356">
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600685976146" />
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.right" timestamp="1600685988184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600327741356" />
-    <state width="1877" height="407" key="GridCell.Tab.1.bottom" timestamp="1600319442916">
+    <state x="996" y="429" width="609" height="512" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600685988184" />
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1603430522405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600319442916" />
-    <state width="1877" height="407" key="GridCell.Tab.1.center" timestamp="1600319442916">
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603430522405" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1603430522404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600319442916" />
-    <state width="1877" height="407" key="GridCell.Tab.1.left" timestamp="1600319442916">
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603430522404" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1603430522404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600319442916" />
-    <state width="1877" height="407" key="GridCell.Tab.1.right" timestamp="1600319442916">
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603430522404" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1603430522404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="407" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600319442916" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603430522404" />
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.bottom" timestamp="1600686055242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600686055242" />
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.center" timestamp="1600686055241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600686055241" />
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.left" timestamp="1600686055241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600686055241" />
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.right" timestamp="1600686055241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="1877" height="524" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600686055241" />
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.bottom" timestamp="1600685404257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600685404257" />
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.center" timestamp="1600685404257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600685404257" />
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.left" timestamp="1600685404257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600685404257" />
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.right" timestamp="1600685404257">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="824" height="610" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600685404257" />
     <state x="426" y="225" key="NewModule_or_Project.wizard" timestamp="1600148661912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="426" y="225" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1600148661912" />
-    <state x="426" y="154" width="998" height="738" key="SettingsEditor" timestamp="1600148675949">
+    <state x="426" y="154" width="998" height="738" key="SettingsEditor" timestamp="1601795216469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="426" y="154" width="998" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600148675949" />
-    <state x="554" y="262" key="Vcs.Push.Dialog.v2" timestamp="1600077554845">
+    <state x="426" y="154" width="998" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601795216469" />
+    <state x="554" y="262" key="Vcs.Push.Dialog.v2" timestamp="1603108385187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="554" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600077554845" />
+    <state x="554" y="262" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603108385187" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1600319418840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600319418840" />
-    <state x="510" y="256" width="899" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600151103990">
+    <state x="510" y="256" width="899" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600668292012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="510" y="256" width="899" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1600151103990" />
-    <state x="670" y="261" width="584" height="536" key="find.popup" timestamp="1600150282321">
+    <state x="510" y="256" width="899" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1600668292012" />
+    <state x="434" y="64" width="1893" height="839" key="dock-window-1" timestamp="1603096838860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="670" y="261" width="584" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600150282321" />
+    <state x="434" y="64" width="1893" height="839" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1603096838860" />
+    <state x="621" y="531" width="716" height="649" key="dock-window-2" timestamp="1600685292568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="531" width="716" height="649" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1600685292568" />
+    <state x="1238" y="387" width="715" height="599" key="dock-window-3" timestamp="1600685292568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1238" y="387" width="715" height="599" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1600685292568" />
+    <state x="934" y="303" width="431" height="649" key="dock-window-4" timestamp="1600685820312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="934" y="303" width="431" height="649" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1600685820312" />
+    <state x="996" y="429" width="811" height="649" key="dock-window-5" timestamp="1600685820312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="996" y="429" width="811" height="649" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1600685820312" />
+    <state x="670" y="261" width="584" height="536" key="find.popup" timestamp="1601336751905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="261" width="584" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601336751905" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1600095059156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,6 +523,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="8" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="9" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
