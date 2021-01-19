@@ -25,5 +25,5 @@
 hs_err_pid*
 
 # CodingTest
-java/codingtest/
-java/Main.java
+src/main/java/codingtest/
+src/main/java/Main.java
