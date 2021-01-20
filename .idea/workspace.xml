@@ -22,125 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="boj - 16236">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="boj - 19236">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-alorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-alorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/BreadthFirstSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algorithm/BreadthFirstSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Combination.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algorithm/Combination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algorithm/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Greedy$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algorithm/Greedy$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/algorithm/Greedy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/algorithm/Greedy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10026$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10026$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10026.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10026.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1012$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1012$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1012.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1012.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1026.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1026.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10815.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10815.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10828.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10828.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10845.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10845.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10866.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10866.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_10867.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_10867.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11052.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11052.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11279$Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11279$Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11279.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11279.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11403.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11403.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1149.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1149.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1159.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1159.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11650$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11650$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11650$Coordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11650$Coordinate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11650.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11650.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11651$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11651$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11651$Coordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11651$Coordinate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11651.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11651.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11724.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11724.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_11727.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_11727.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1181$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1181$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1181.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1181.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1260.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1260.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1297$Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1297$Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1297.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1297.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1389.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1389.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1406.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1406.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_14502$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_14502$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_14502.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_14502.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_16914.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_16914.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1920.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1920.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1924.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1924.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_1932.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_1932.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2178$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2178$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2178.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2178.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2579.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2579.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2583.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2583.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2644.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2644.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2667$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2667$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2667.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2667.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2750.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2750.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2751.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2751.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2798.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2798.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2839.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2839.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2846.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2846.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2920.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2920.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_2953.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_2953.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_3052.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_3052.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7562$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_7562$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7562.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_7562.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7576$Dot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_7576$Dot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_7576.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_7576.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_9095.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_9095.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_9372.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_9372.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/boj/_9498.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/boj/_9498.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/LinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/LinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/ListStack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/ListStack$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/ListStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/ListStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/ds/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ds/MaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/maeil/_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/maeil/_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/maeil/_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/maeil/_002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_006.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_006.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_007.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_007.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008$Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008$Word.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_008.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_009.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_009.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level1/_010.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level1/_010.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_003$Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_003$Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_005$Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_005$Truck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_005.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_006.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_006.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_007.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_007.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level2/_008.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level2/_008.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/level3/_001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/level3/_001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/sort/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/sort/CountingSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -473,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610970980822</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="boj - 19236">
+      <created>1611055470081</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1611055470081</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -527,7 +418,8 @@
     <MESSAGE value="boj - 2887, 1766" />
     <MESSAGE value="algorithm - topological sort" />
     <MESSAGE value="boj - 16236" />
-    <option name="LAST_COMMIT_MESSAGE" value="boj - 16236" />
+    <MESSAGE value="boj - 19236" />
+    <option name="LAST_COMMIT_MESSAGE" value="boj - 19236" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
