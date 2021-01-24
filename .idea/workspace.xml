@@ -22,9 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="boj - 16987">
+    <list default="true" id="3e00fc90-4fde-4a8e-886f-5b10a936810f" name="Default Changelist" comment="boj - 18429">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611127879731</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="boj - 18429">
+      <created>1611150708618</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1611150708618</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -402,7 +410,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add change" />
     <MESSAGE value="ignore file" />
     <MESSAGE value="boj - 17136" />
     <MESSAGE value="boj - 2636" />
@@ -427,7 +434,8 @@
     <MESSAGE value="boj - 16236" />
     <MESSAGE value="boj - 19236" />
     <MESSAGE value="boj - 16987" />
-    <option name="LAST_COMMIT_MESSAGE" value="boj - 16987" />
+    <MESSAGE value="boj - 18429" />
+    <option name="LAST_COMMIT_MESSAGE" value="boj - 18429" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
